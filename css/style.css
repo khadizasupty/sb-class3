@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header section start here */
+.header{
+	width: 100%;
+	display:flow-root;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	display:flow-root;
+	
+}
+a,a:hover{
+	text-decoration: none;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+
+}
+.menu-item{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;  
+	padding: 0 30px; 
+}
+.menu-item ul li a{
+	text-transform: uppercase;
+	color: grey;
+}
+.menu-item ul li a:hover{
+	color: black;
+}
+/*header section end here */
+
+/*banner start from here*/
+
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.post-cont{
+	padding: 56px;
+}
+.catagory{
+	text-transform: uppercase;
+	color: #b4ad9e;
+	padding: 20px 0;
+}
+.title{
+	padding: 20px 0;
+	color:#626262;
+}
+.des{
+	color:#626262;
+	margin-bottom: 20px;
+}
+.comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+	padding: 32px 0;
+
+}
+
+/*banner end from here*/
+
+/*lifestyle start from here*/
+.lifestyle{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+	padding: 56px;
+}
+.post{
+	width: 100%;
+	float: left;
+}
+.catagory{
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+.left{
+	width: 48%;
+	float: left;
+}
+.right{
+	width: 48%;
+	float: right;
+}
+
+/*lifestyle end from here*/
+
+/*photodairy start from here*/
+.photodairy{
+	width: 100%;
+	display: flow-root;
+	margin-top: 30px;
+}
+/*photodairy end from here*/
+
+/*subscription start from here*/
+
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 80px 0;
+	margin-bottom: 30px;
+}
+.news{
+	margin-bottom: 40px;
+}
+input{
+	    width: 381px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    font-size: 15px
+}
+form input:focus{
+	outline: none;
+}
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 20px;
+	right: 365px;
+	transform: rotate(45deg);
+
+}
+/*subscription end from here*/
+/* load more*/
+.btn{
+	text-align: center;
+
+}
+.btn button{
+    padding: 25px 76px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    /*end section*/
+    .end{
+    	width: 100%;
+    	background-color: #f0f0f0;
+
+    }
+.lefts{
+	display: inline-block;
+    font-size: 23px;
+    margin-top: 50px;
+    margin-left: 196px
+}
